@@ -53,7 +53,7 @@ https://www.youtube.com/playlist?list=PL4BHdEpMZRTiNQ6ZYDmhguuHwbRNSYsZM
 **Статистика:**
 - Всего видео: 429
 - С русскими субтитрами: 296 (69%)
-- Анализировано: 6 видео
+- Анализировано: 34 видео
 
 ## 🛠️ Инструменты
 
