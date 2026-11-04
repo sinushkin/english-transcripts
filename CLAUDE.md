@@ -9,7 +9,7 @@ english-transcripts/
 ├── CLAUDE.md                      # этот файл (инструкции)
 ├── README.md                      # публичное описание проекта
 ├── download_playlist_subs.py      # скрипт для загрузки плейлистов
-├── playlist.csv                   # таблица всех видео плейлиста (429)
+├── dragon-club-phrases.csv        # таблица всех видео плейлиста (429)
 └── transcript/                    # анализированные видео (34 видео, 200+ фраз)
     ├── FOzoCpD27Cs.md            # 5 фраз (pass by, get over, fall short...)
     ├── 2oScAyV9p0A.md            # 5 фраз с TAKE
@@ -31,7 +31,7 @@ english-transcripts/
 ```bash
 python3 download_playlist_subs.py \
   "https://www.youtube.com/playlist?list=PL4BHdEpMZRTiNQ6ZYDmhguuHwbRNSYsZM" \
-  playlist.csv
+  dragon-club-phrases.csv
 ```
 
 **Особенности:**
@@ -65,7 +65,7 @@ python3 download_playlist_subs.py \
 
 - Имена файлов = ID видео (то что после `v=`)
 - Суффиксы: `.ru.srt` (субтитры), `.md` (анализ)
-- CSV: `url | title | subtitle_file`
+- CSV: `dragon-club-phrases.csv` содержит `url | title | subtitle_file`
 
 ## Инструменты
 
