@@ -2,21 +2,38 @@
 
 Анализ и расшифровка английских видео-уроков с YouTube канала про английский язык.
 
-## 📚 Содержание
+## 📊 Статистика
 
-6 полных анализов видео с объяснением фраз, выражений и слов:
+- ✅ **34 видео анализировано**
+- ✅ **200+ фраз и выражений** с полными объяснениями
+- 📺 **429 видео** в плейлисте
+- 📝 **296 с русскими субтитрами** (69%)
 
-### Фразовые глаголы
+## 📂 Проектная структура
 
-- **[FOzoCpD27Cs](transcript/FOzoCpD27Cs.md)** — 5 фраз (pass by, get over, fall short, slip mind, hold back)
-- **[2oScAyV9p0A](transcript/2oScAyV9p0A.md)** — 5 фраз с TAKE (take risk, take it easy, take over, take up, take seriously)
-- **[BohT_bO9OWY](transcript/BohT_bO9OWY.md)** — 7 фраз с GET (get over, get across, get by, get promoted, get around, get old, get the point)
-- **[PD2uFZIF36U](transcript/PD2uFZIF36U.md)** — 8 практичных фраз (get on nerves, shoot, get back to, see off, set off, kick off)
-- **[9GtiYGII5XA](transcript/9GtiYGII5XA.md)** — 8 фраз разговорного английского (pull together, shake off, stuck in rut, round the clock, thumbs up, follow-up)
+```
+english-transcripts/
+├── README.md                      # этот файл
+├── CLAUDE.md                      # инструкции проекта
+├── download_playlist_subs.py      # скрипт загрузки плейлистов
+├── playlist.csv                   # таблица всех видео (429)
+├── subtitles/                     # русские субтитры видео (в ~/data/dragon-club)
+└── transcript/                    # 34 анализированных видео
+```
 
-### Лексика
+## 📚 Все видео
 
-- **[kJbMaqd-ibs](transcript/kJbMaqd-ibs.md)** — 10 слов из притчи "Слепцы и слон" (once upon a time, blind, roadside, beg, stand, happen, beast, touch, exactly, know)
+**34 видео анализировано:**
+Фразовые глаголы, грамматика, лексика, диалоги, специальные темы.
+
+**Папка `transcript/`** содержит:
+- Фразовые глаголы (GET, PUT, TAKE и др)
+- Способы начинать предложения
+- Грамматика (инфинитив vs герундий, времена)
+- Словари (50+ глаголов, 10+ значений слов)
+- Практичные диалоги
+- Разговорные фразы
+- И многое другое...
 
 ## 🎯 Структура каждого файла
 
